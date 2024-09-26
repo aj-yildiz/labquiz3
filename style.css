@@ -1,0 +1,74 @@
+/*
+display-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 20px;
+} */
+
+/*
+Create a 2x2 grid layout using the `display: grid` property. Ensure each grid item takes up equal space in the two-column layout.  
+2. Add 10px of space between grid items using the `grid-gap` property.  
+3. Set the grid container's margin to 20px.
+4. Style each grid item with a light blue background, 20px padding, and centered text. */
+
+.grid-setion{
+display: grid;
+grid-template-columns: 1fr 1fr;
+grid-gap: 10px;
+margin:20px;
+}
+
+.grid-section div{
+background-color: lightblue;
+padding: 20px;
+text-align: center;
+}
+
+
+.flexbox-section div{
+    background-color:lightgreen;
+    padding:20px;
+    text-align:center;
+    width:100px;
+}
+
+.positioned-element{
+    position:relative;
+    top:20px;
+    left:20px;
+    background-color:lightblue;
+    padding:20px;
+    text-align:center;
+}
+
+.float-left {
+    float:left;
+    background-color:lightgreen;
+    padding:20px;
+    text-align:center;
+    width:100px;
+}
+
+.center-section{
+    text-align:center;
+    background-color: lightcoral;
+    padding:20px;
+    float: none;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.left-section{
+    text-align:left;
+}
+
+.right-section{
+    text-align:right;
+}
+
+.float-container{
+margin: 20px ;
+border: 1px solid #ccc}
+
+
+
